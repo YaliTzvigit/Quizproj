@@ -1,0 +1,90 @@
+
+ *{
+
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+ }
+
+  body {
+
+    background-color: #001e4d;
+
+  }
+
+  .app {
+
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .app h1{
+
+     font-size: 25px;
+     font-weight: 500;
+     color: #001e4d;
+     border-bottom: 1px solid #333;
+     padding: 20px 0;
+  }
+
+  .quiz {
+
+     padding: 22px 0;
+  }
+
+  .quiz h2 {
+
+     font-size: 18px;
+     color: #001e4d;
+
+  }
+
+  .btn {
+
+     background: #fff;
+     color: #222;
+     font-weight: 500;
+     width: 100%;
+     border: 1px solid #222;
+     padding: 10px;
+     margin: 10px 0;
+     text-align: left;
+     border-radius: 4px;
+     cursor: pointer; transition: all 0.14s;
+  }
+
+
+  .btn:hover:not([disabled]){
+    color: #fff;
+    background: #222;
+  }
+
+  .btn:disabled{
+    cursor: no-drop;
+  }
+
+   #next-btn {
+
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    margin : 20px auto 0;
+    padding: 10px;
+    border-radius: 4px; background: #001e4d; border: 0; cursor: pointer; display: none;
+   }
+
+
+    /* Definir la couleur de la réponse correcte ou incorrecte en tant que 'vert' */
+
+     .correct {
+
+         background: #15924b;
+     }
+
+     .incorrect{ background: rgb(207, 32, 32)}
